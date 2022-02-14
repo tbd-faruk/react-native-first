@@ -3,7 +3,7 @@ import { View, StyleSheet,ImageBackground, Text} from 'react-native';
 import { NativeBaseProvider } from "native-base";
 import bg from './../media/warning-bg.jpg';
 
-class Home extends Component {
+class Warning extends Component {
   
     render() {
         return (
@@ -72,4 +72,4 @@ const styles = StyleSheet.create({
     marginTop: -40,
   }
 });
-export default Home;
+export default Warning;

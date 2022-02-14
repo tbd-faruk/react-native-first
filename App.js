@@ -6,7 +6,7 @@ import {
   StatusBar,
   Text
 } from 'react-native';
-import CreatePassword from './components/CreatePassword';
+import Home from './src/components/Home';
 
 const App: () => Node = () => {
   return (
@@ -19,9 +19,11 @@ const App: () => Node = () => {
         {/* <Text>Hello</Text> */}
         {/* <ConfirmUser /> */}
         {/* <UserInfo /> */}
-        <CreatePassword />
+        {/* <CreatePassword /> */}
         {/* <EnterSmsPin /> */}
+        <Text>Hi</Text>
         </NativeBaseProvider>
+      
     </SafeAreaView>
   );
 };
